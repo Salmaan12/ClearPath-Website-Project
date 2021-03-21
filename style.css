@@ -1,0 +1,463 @@
+body {
+    font-family: 'calibri-regular';
+    font-size: 16pt;
+}
+.header-top-black {
+    background-color: black !important;
+    color: #fff;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.navbar-default {
+    padding-top: 35px !important;
+    background-color: #fff !important;
+    border: none !important;
+}
+
+.navbar-toggle {
+    margin-bottom: 0px !important;
+    margin-top: -8px !important;
+}
+
+.logo-style {
+    /* height: 100px; */
+    width: 200px;
+}
+
+.cart-icon {
+    margin: 10px 0 0 0px;
+    color: #33d6ff !important;
+}
+.shopping-icon {
+    margin: 10px 0 0 0px;
+    color: black;
+}
+
+.additional-style {
+    color: black !important;
+    border-right: 1px solid;
+    line-height: 2px !important;
+    /* margin: 0 5px; */
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.nav-icon {
+    margin-top: -15px;
+    margin-right: 2px;
+}
+
+.navbar-Items {
+    margin-left: 220px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-Items {
+       text-align: right;
+       margin: 0px !important;
+       border-bottom: 2px solid #33d6ff !important;
+       letter-spacing: 1px;
+      }
+}
+
+#topheader .navbar-nav li.active > a {
+    background-color: #fff;
+	color: #33d6ff !important;
+    border-color: black !important;
+    font-weight: bold;
+}
+
+.additional-style:hover, .additional-style:focus  {
+    color: #33d6ff !important;
+    border-color: black !important;
+    font-weight: bold;
+}
+
+.img-book {
+    width: 200px;
+    height: 400px;
+}
+
+.add-size {
+    height: 310px !important;
+}
+
+.btn-style {
+    background-color: #fff !important;
+    color: #33d6ff !important;
+    border-radius: 10px !important;
+    padding: 5px 10px !important;
+}
+
+.btn-style:hover {
+    background-color: #33d6ff !important;
+    color: #fff !important;
+}
+
+.heading-txt {
+    color: #33d6ff;
+    font-weight: bold;
+}
+
+.video-section {
+    padding-top: 80px;
+}
+
+.video-section-text {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.heading-sub {
+    text-align: center;
+    color: #33d6ff;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.carousel-caption {
+    top: 60% !important;
+    transform: translateY(-60%);
+}
+.carousel-control {
+    background-image:none !important;
+    filter:none !important;
+}
+
+.carousel-indicators > .active {
+    background-color: #33d6ff !important;
+}
+
+.img-styling {
+    height: 180px;
+    width: 160px;
+}
+.img-styling:hover {
+    height: 185px;
+    width: 165px;
+    border: 2px solid #33d6ff;
+}
+
+.thumbnail {
+    width: 242;
+    height: 320;
+    border: none !important;
+    text-align: center;
+}
+.btn-styling {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #fff !important; 
+    color: #33d6ff !important;
+    font-weight: bold !important;
+    border-radius: 10px !important;
+    padding: 5px 10px;
+}
+.btn-styling:hover {
+    background-color: #33d6ff !important;
+    color: #fff !important;
+}
+
+/* media query for book subscription */
+
+@media only screen and (max-width: 992px) {
+    .center {
+       text-align: center;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+    .center {
+       text-align: center;
+      }
+    }
+@media only screen and (min-width: 768px) {
+    .center {
+       text-align: center;
+      }
+}
+
+#myBtn {
+    display: none;
+    background: none;
+    border: none;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    color: #33d6ff; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    font-size: 30px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    font-size: 32px;
+  }
+
+.footer-styling {
+    /* margin-top: 80px; */
+    background-color: black;
+    height: 250px;
+    color: #fff;
+    padding: 10px;
+}
+
+.img-devider {
+    height: 240px;
+}
+
+.ul-style-footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.quick-links {
+    margin-left: 7px;
+    margin-bottom: 15px;
+}
+.footer-nav-style {
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.a-style {
+    color: #fff !important;
+    padding: 5px;
+}
+.a-style:hover {
+    color: #33d6ff !important;
+    text-decoration: none;
+}
+
+.contact-container {
+    margin-bottom: 50px;
+}
+
+.footer-mail-call {
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.footer-mail-call:hover {
+    color: #33d6ff !important;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .quicklinks-sec {
+        display: none;
+    }
+    .devider-sec {
+        display: none;
+    }
+    .company-sec {
+        text-align: center;
+    }
+
+}
+
+.heading_cotact_sec {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.contact_sec {
+    /* border: 2px solid #333; */
+    padding: 10px;
+}
+.content_contact_sec {
+    text-align: center;
+    letter-spacing: 1px;
+}
+.dotted_border {
+    border-bottom: 5px dotted #33d6ff;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.contact_sec_btn {
+    background-color: #33d6ff !important;
+    color: #fff !important;
+}
+.style_1 {
+    text-align: center;
+    letter-spacing: 3px;
+    color: #333;
+}
+
+.mail-call {
+    color: #000 !important;
+    letter-spacing: 2px;
+}
+
+.about-heading {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #33d6ff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about-para {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.extra-margin {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.extra-extra-margin {
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.quantity {
+    display: inline !important;
+    width: auto !important;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+    height: 500px !important;
+}
+
+.blog {
+    background-color: whitesmoke !important;
+}
+
+.section-message {
+    background-image: url("images/bgs.jpg");
+    height: 700px;
+}
+
+/* blog page */
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #33d6ff;
+   }
+ 
+ .carousel-indicators li {
+   border-color: #33d6ff;
+ }
+
+ .logo-small {
+    color: #33d6ff;
+    font-size: 50px;
+  }
+ 
+.item h4 {
+     font-size: 19px;
+     line-height: 1.375em;
+     font-weight: 400;
+     font-style: italic;
+     margin: 70px 0;
+   }
+
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .register {
+    background-color: #33d6ff !important;
+    color: #fff !important;
+    padding: 8px;
+    margin-left: 15px;
+  }
+
+  .register:hover{
+      font-weight: bold;
+      text-decoration: none !important;
+  }
+
+
+  .sign-in {
+    background: transparent !important;
+    color: #33d6ff !important;
+    border: none;
+    margin-left: 15px;
+  }
+
+  .sign-in:hover{
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+  .signin {
+      background-color: #f5f5f5;
+      text-align: center;
+  }
+
+  .sign-in-block {
+      width: 35% !important ;
+      margin-top: 15%;
+  }
+
+  .facebook-btn, .google-btn, .submit-btn {
+      display: block !important;
+      width: 100%;
+      margin-bottom: 10px !important;
+  }
+
+  .facebook-btn {
+      background-color: #3a5795 !important;
+      color: #fff !important;
+  }
+
+  .fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .submit-btn {
+      background-color: #33d6ff !important;
+      color: #fff !important;
+      font-weight: bold;
+  }
